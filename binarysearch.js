@@ -26,5 +26,16 @@ function binaryIndexOf(searchElement) {
 
 Array.prototype.binaryIndexOf = binaryIndexOf;
 var arr = [0, 1, 2, 4, 5, 6, 6.5, 7, 8, 9];
-var a = [1, 2, 3];
 arr.binaryIndexOf(6.5);
+
+
+var factorial = function(n) {
+    if(n == 0) {
+        return 1
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+var test=5
+test.factorial
